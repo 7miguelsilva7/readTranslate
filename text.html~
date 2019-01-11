@@ -661,7 +661,7 @@ p {
 
 <script>
 
-
+window.open('', "esquerda", 'height=800, width=350, left='+(window.innerWidth-400)/1+', top='+(window.innerHeight-800)/2);
 
 var criarLink = t => `<a target="esquerda" href="https://translate.google.com/m/translate?ie=UTF8&sl=pt-BR&tl=en&q=#en/pt/${t}">${t}</a>`
 
