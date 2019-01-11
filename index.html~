@@ -12,19 +12,3 @@ window.open('text.html','', 'height=800, width=1000, right='+(window.innerWidth-
 <!-- Include the BBCode or XHTML formats -->
 <script src="minified/formats/bbcode.js"></script>
 <script src="minified/formats/xhtml.js"></script>
-
-<script>
-var textarea = ...;
-sceditor.create(textarea, {
-	format: 'bbcode',
-	style: 'minified/themes/content/default.min.css'
-});
-</script>
-
-<script>
-var textarea = ...;
-sceditor.create(textarea, {
-	format: 'xhtml',
-	style: 'minified/themes/content/default.min.css'
-});
-</script>
